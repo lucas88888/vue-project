@@ -12,10 +12,9 @@
   
   <style>
   footer {
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #000; /* Hintergrundfarbe auf dunkles Grau setzen */
+    color: #fff; /* Schriftfarbe auf Weiß setzen */
     padding: 1rem;
     text-align: center;
   }
   </style>
-  
