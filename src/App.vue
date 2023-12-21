@@ -21,7 +21,7 @@ export default {
           description: 'Robustes Zelt für alle Outdoor-Abenteuer.', 
           price: '149.99', 
           rating: 2,
-          image: '1.png'
+          image: '3.png'
         },
         {
           id: 2, 
@@ -29,7 +29,7 @@ export default {
           description: 'Verfolgen Sie Ihre Fitnessziele mit der neuesten Smartwatch-Technologie.', 
           price: '299.99', 
           rating: 4.0,
-          image: '2.png'
+          image: '1.png'
         },
         {
           id: 3, 
@@ -37,7 +37,7 @@ export default {
           description: 'Hochwertiger Sound und Freiheit ohne Kabel.', 
           price: '89.99', 
           rating: 3,
-          image: '3.png'
+          image: '2.png' // Updated image name
         }
       ]
     };
