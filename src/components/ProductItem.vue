@@ -1,16 +1,18 @@
 <template>
   <div class="product-item">
-      <img :src="`/assets/${product.image}`" :alt="product.name" class="product-image" />
-      <h3>{{ product.name }}</h3>
-      <p class="product-description">{{ product.description }}</p>
-      <div class="product-rating">
-          <span v-for="star in Math.floor(product.rating)" :key="`full-${star}-${product.id}`" class="filled-star">&#9733;</span>
-          <span v-if="product.rating % 1" class="half-star">&#9734;</span>
-          <span v-for="star in 5 - Math.ceil(product.rating)" :key="`empty-${star}-${product.id}`" class="empty-star">&#9734;</span>
-      </div>
-      <p class="product-price">{{ product.price }} €</p>
+    <img :src="`/assets/${product.image}`" :alt="product.name" class="product-image" />
+    <h3>{{ product.name }}</h3>
+    <p class="product-description">{{ product.description }}</p>
+    <div class="product-rating">
+      <span v-for="star in Math.floor(product.rating)" :key="`full-${star}-${product.id}`" class="filled-star">&#9733;</span>
+      <span v-if="product.rating % 1" class="half-star">&#9734;</span>
+      <span v-for="star in 5 - Math.ceil(product.rating)" :key="`empty-${star}-${product.id}`" class="empty-star">&#9734;</span>
+    </div>
+    <p v-if="product.discountPrice" class="product-discount-price">{{ product.discountPrice }} € (Sale!)</p>
+    <p v-else class="product-price">{{ product.price }} €</p>
   </div>
 </template>
+
 
 
 
