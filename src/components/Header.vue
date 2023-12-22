@@ -2,7 +2,7 @@
 
 <template>
   <header>
-    <h1>Produktangebot Winter __________________________</h1>
+    <h1>Produktangebot:</h1>
   </header>
 </template>
 
