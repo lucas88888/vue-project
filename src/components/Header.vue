@@ -2,7 +2,7 @@
 
 <template>
   <header>
-    <h1>Produktangebot Winter _________________________________________ ☃️❄️🥶Winter Sale🥶❄️☃️ Entdecke exklusive Angebote! 🎁✨ Jetzt nur erhältlich bis 31. Januar 🛍️</h1>
+    <h1>Produktangebot Winter __________________________</h1>
   </header>
 </template>
 
@@ -13,7 +13,6 @@ export default {
 </script>
 
 <style>
-/* Stile für den Header */
 header {
   background-color: #000;
   padding: 1rem;

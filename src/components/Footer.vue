@@ -1,6 +1,6 @@
 <template>
     <footer>
-      <p>&copy; 2023 Mein fantastischer Shop</p>
+      <p>&copy; 2023 Wintershop Lucas</p>
     </footer>
   </template>
   
@@ -12,8 +12,8 @@
   
   <style>
   footer {
-    background-color: #000; /* Hintergrundfarbe auf dunkles Grau setzen */
-    color: #fff; /* Schriftfarbe auf Weiß setzen */
+    background-color: #000; 
+    color: #fff; 
     padding: 1rem;
     text-align: center;
   }

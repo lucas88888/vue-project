@@ -54,11 +54,11 @@ export default {
 </script>
 
 <style>
-/* Globale Stile, falls benötigt */
+
 body {
-  background-color: #000; /* Hintergrundfarbe der Seite auf Schwarz setzen */
-  color: #fff; /* Schriftfarbe auf Weiß setzen */
+  background-color: #000; 
+  color: #fff; 
 }
 
-/* Weitere Stile, wenn nötig */
+
 </style>
